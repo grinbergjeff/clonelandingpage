@@ -442,3 +442,14 @@ div {
 	width: 970 px;
 	height: 70 px;
 }
+.top-navigation > .nav-content > .nav-links {
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #83894;
+	letter-spacing: 0.03em;
+	
+}
+.top-navigation > .nav-content > .nav-links li {
+	display: inline;
+}
