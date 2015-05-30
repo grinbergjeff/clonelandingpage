@@ -463,11 +463,11 @@ div {
 	display: inline-block;
 	margin-left: 25px;
 }
-.top-navigation .nav-links active {
+.top-navigation .nav-links .active {
 	color: #4c5058;
 	font-weight: 500;
 }
-.top-navigation .nav-links li:hover {
+.top-navigation .li:hover {
 	cursor: pointer;
 	color: #333333;
 }
