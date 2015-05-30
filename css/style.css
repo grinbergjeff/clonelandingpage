@@ -444,11 +444,14 @@ div {
 /*Navigation Section*/
 .top-navigation {
 	background-color: white;
+	position:fixed;
+	width: 100%;
 }
 .top-navigation > .nav-content {
 	margin: 0 auto;
 	width: 970 px;
 	height: 70 px;
+	
 }
 .top-navigation  .nav-links {
 	float: right;
@@ -470,4 +473,26 @@ div {
 .top-navigation .nav-links li:hover {
 	cursor: pointer;
 	color: #333333;
+}
+/*Background Image Section*/
+.introduction {
+	background-image: url(/images/first-background%20copy.jpg);
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	height: 735px;
+	width: inherit;
+	overflow: auto;
+}
+.introduction-content h1,
+.introduction-content h3{
+	color: white;
+	text-align: center;
+	font-weight: 300 px;
+}
+.introduction-content h1 {
+	margin-top: 17.5rem;
+}
+.buttons {
+	text-align: center;
 }
