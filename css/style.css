@@ -438,9 +438,9 @@ body {
 	background-color: lightgray;
 	font-family: 'Roboto', sans-serif;
 }
-div {
+/*div {
 	border: 1px solid Chocolate;
-}
+}*/
 
 /*Navigation Section*/
 .top-navigation {
@@ -528,4 +528,10 @@ div {
 }
 .description h3 {
 	margin: 2.5rem 0rem 1.875rem;
+}
+/*Social Section*/
+.social li {
+	float: left;
+	list-style-type: none;
+	width: 33.333333%
 }
