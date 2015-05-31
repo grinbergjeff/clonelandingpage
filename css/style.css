@@ -523,13 +523,14 @@ body {
 	width: 100%;
 	overflow: auto;
 }
-.description li {
+.icons .description li {
 	float: left;
 	list-style-type: none;
 	width: 33.333333%;
 }
 .description h3 {
 	margin: 2.5rem 0rem 1.875rem;
+	font-size: 1.6rem;
 }
 
 /*Social Section*/
@@ -539,9 +540,8 @@ body {
 	text-align: center;
 	align-items: center;
 	align-content: center;
-}	
+}
 .social .icon-images li {
-	text-align: center;
 	display: inline-block;
 	border-radius: 50%;
 	border: 1px solid grey;
@@ -549,6 +549,7 @@ body {
 	height: 2.5rem;
 	padding: .625rem 0;
 	margin: 1.25rem 5px;
+	text-align: center;
 }
 .social .icon-images li:hover {
 	cursor: pointer;
