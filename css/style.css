@@ -513,8 +513,8 @@ body {
 	background-color: darkorange;
 	cursor: pointer;
 }
-/*3 Icons Section*/
 
+/*3 Icons Section*/
 .icons {
 	background-color: white;
 	text-align: center;
@@ -529,9 +529,33 @@ body {
 .description h3 {
 	margin: 2.5rem 0rem 1.875rem;
 }
+
 /*Social Section*/
-.social li {
-	float: left;
+.social {
+	background-color: white;
+	overflow: auto;
+	text-align: center;
+}	
+.social .icon-images li {
+	display: inline-block;
 	list-style-type: none;
-	width: 33.333333%
+	border-radius: 50%;
+	border: 1px solid solidgray;
+	width: 40px;
+	height: 40px;
+	padding: .625rem 0;
+	margin: 1.25rem 5px;
+	text-align: center;
+}
+.social .icon-images li:hover {
+	cursor: pointer;
+}
+.twitter {
+	color: #5EA9DD;
+}
+.facebook{
+	color: #3B5998;
+}
+.instagram{
+	color: #47749A;
 }
