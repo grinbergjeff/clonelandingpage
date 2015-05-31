@@ -513,6 +513,17 @@ div {
 	cursor: pointer;
 }
 /*3 Icons Section*/
+
 .icons {
 	text-align: center;
+	background-color: white;
+	width: 100%
+}
+.description li {
+	float: left;
+	list-style-type: none;
+	width: 33.333333%;
+}
+.description h3 {
+	margin: 2.5rem 0rem 1.875rem;
 }
