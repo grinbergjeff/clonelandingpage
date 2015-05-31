@@ -541,6 +541,10 @@ body {
 	align-items: center;
 	align-content: center;
 }
+.social .icon-images {
+	text-align: center;
+	padding: 0;
+}
 .social .icon-images li {
 	display: inline-block;
 	border-radius: 50%;
