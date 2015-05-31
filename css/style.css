@@ -521,7 +521,7 @@ div {
 	width: 100%;
 	overflow: auto;
 }
-.description > li {
+.description li {
 	float: left;
 	list-style-type: none;
 	width: 33.333333%;
