@@ -453,7 +453,9 @@ body {
 	margin: 0 auto;
 	width: 970 px;
 	height: 70 px;
-	
+}
+.top-navigation .logo {
+	height: 4.375rem;
 }
 .top-navigation  .nav-links {
 	float: right;
