@@ -464,6 +464,7 @@ body {
 	color: #83894;
 	letter-spacing: 0.03em;
 	margin-top: 25px;
+	padding-right: 1rem;
 	-webkit-font-smoothing: antialiased;
 }
 .top-navigation .nav-links li {
@@ -531,6 +532,11 @@ body {
 .description h3 {
 	margin: 2.5rem 0rem 1.875rem;
 	font-size: 1.6rem;
+	font-weight: 300;
+}
+.icons-content h2 {
+	font-weight: 300;
+	font-size: 55px;
 }
 
 /*Social Section*/
