@@ -436,6 +436,7 @@ th {
 
 body {
 	background-color: lightgray;
+	font-family: 'Roboto', sans-serif;
 }
 div {
 	border: 1px solid Chocolate;
@@ -480,19 +481,34 @@ div {
 	background-size: cover;
 	background-position: center bottom;
 	background-repeat: no-repeat;
-	height: 735px;
+	height: 45.938rem;
 	width: inherit;
 	overflow: auto;
+}
+.introduction-content {
+	text-align: center;
 }
 .introduction-content h1,
 .introduction-content h3{
 	color: white;
-	text-align: center;
 	font-weight: 300 px;
 }
 .introduction-content h1 {
 	margin-top: 17.5rem;
+	font-size: 3.125em;
 }
-.buttons {
-	text-align: center;
+.buttons button {
+	width: 10rem;
+	background-color: orangered;
+	border-color: orangered;
+	border-radius: 3px;
+	border-style: none;
+	margin: .5rem .5rem;
+	padding: 14px 5px;
+	font-size: 19px;
+	color: white;	
+}
+.buttons button:hover {
+	background-color: darkorange;
+	cursor: pointer;
 }
