@@ -516,11 +516,12 @@ div {
 /*3 Icons Section*/
 
 .icons {
-	text-align: center;
 	background-color: white;
-	width: 100%
+	text-align: center;
+	width: 100%;
+	overflow: auto;
 }
-.description li {
+.description > li {
 	float: left;
 	list-style-type: none;
 	width: 33.333333%;
